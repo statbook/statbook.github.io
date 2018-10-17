@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="06-z-1.html">
-<link rel="next" href="06-z-3.html">
+<link rel="prev" href="06-z-2.html">
+<link rel="next" href="06-z-4.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -120,15 +120,32 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="z06-2" class="section level2">
-<h2><span class="header-section-number">6.2</span> Задачи</h2>
-<p>Имеются следующие данные об импорте и экспорте в млрд России:</p>
-<p><div id="htmlwidget-e53d976767a0e726601a" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e53d976767a0e726601a">{"x":{"filter":"none","caption":"<caption>Импорт товаров (по данным таможенной статистики) <\/caption>","data":[[1,2,3,4,5,6,7,8,9,10],[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],["267,1","167,3","228,9","305,8","317,2","315,0","286,7","182,7","182,3","227,5"],["230,5","145,5","197,2","260,9","272,3","276,4","253,9","161,7","162,7","202,6"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>№<\/th>\n      <th>Год<\/th>\n      <th>Всего по странам мира<\/th>\n      <th>Страны Дальнего зарубежья<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"scrollX":true,"dom":"t","columnDefs":[{"className":"dt-center","targets":"_all"},{"className":"dt-right","targets":[0,1]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script><div id="htmlwidget-e9b284db7353ab92e80d" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e9b284db7353ab92e80d">{"x":{"filter":"none","caption":"<caption>Экспорт товаров (по данным таможенной статистики) <\/caption>","data":[[1,2,3,4,5,6,7,8,9,10],[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],["467,6","301,7","397,1","516,7","524,7","527,3","497,8","343,5","285,8","357,8"],["397,9","254,9","337,5","437,3","445,5","453,3","433,9","298,5","247,9","309,7"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>№<\/th>\n      <th>Год<\/th>\n      <th>Всего по странам мира<\/th>\n      <th>Страны Дальнего зарубежья<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"scrollX":true,"dom":"t","columnDefs":[{"className":"dt-center","targets":"_all"},{"className":"dt-right","targets":[0,1]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script></p>
-<p>Рассчитайте все известные показатели характеризирующие внешнюю торговлю, и спрогнозируйте их на перспективные период времени (на 3 года) с помощью линии тренда исходных показателей.
-Результаты представьте в табличном виде.
+<div id="z06-3" class="section level2">
+<h2><span class="header-section-number">6.3</span> Задачи</h2>
+<p>Имеются условные данные по внешнеторговым опрациям страны со странами мира (млн $):</p>
+<div id="htmlwidget-975a308ad85f6c21288b" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-975a308ad85f6c21288b">{"x":{"filter":"none","caption":"<caption> <\/caption>","data":[[1,2,3,4],["0-50","50-300","300-400","500 и более"],[5,10,2,1],[12,25,11,5],[2,7,5,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>№<\/th>\n      <th>Экспорт Импорт <\/th>\n      <th>0-100<\/th>\n      <th>100-250<\/th>\n      <th>250 и более<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"scrollX":true,"dom":"t","columnDefs":[{"className":"dt-center","targets":"_all"},{"className":"dt-right","targets":[0,2,3,4]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<p>Определите тесноту стохастической связи между признаками (Коэффициент взаимной сопряжённости Чупрова, Пирсона).
 Сделайте выводы.</p>
+<p><span class="math display">\[
+\begin{equation}
+  \varphi^2 = \sum{\frac{\sum{\frac{n^2_{xy}}{n_x}}}{n_y}} - 1 
+\end{equation}
+\]</span>
+Коэффициент Пирсона:
+<span class="math display">\[
+\begin{equation}
+  K_P = \sqrt{ \frac{\varphi^2}{1+\varphi^2} }  
+\end{equation}
+\]</span>
+Коэффициент Чупрова:
+<span class="math display">\[
+\begin{equation}
+  K_C = \sqrt{ \frac{\varphi^2}{(K_1-1)(K_2-1)} }  
+\end{equation}
+\]</span></p>
+<p><span class="math inline">\(K_1\)</span> — число значений первого признака,
+<span class="math inline">\(K_2\)</span> — число значений второго признака.</p>
 
 </div>
             </section>
@@ -136,8 +153,8 @@
           </div>
         </div>
       </div>
-<a href="06-z-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="06-z-3.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="06-z-2.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="06-z-4.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
