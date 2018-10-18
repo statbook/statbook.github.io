@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="06-z-2.html">
-<link rel="next" href="06-z-4.html">
+<link rel="prev" href="06-z-4.html">
+<link rel="next" href="TR.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -121,41 +121,22 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="z06-3" class="section level2">
-<h2><span class="header-section-number">6.3</span> Задачи</h2>
-<p>Имеются условные данные по внешнеторговым опрациям страны со странами мира (млн $):</p>
-<div id="htmlwidget-07e70b06a6cae520e9e6" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-07e70b06a6cae520e9e6">{"x":{"filter":"none","caption":"<caption> <\/caption>","data":[[1,2,3,4],["0-50","50-300","300-400","500 и более"],[5,10,2,1],[12,25,11,5],[2,7,5,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>№<\/th>\n      <th>Экспорт \\ Импорт <\/th>\n      <th>0-100<\/th>\n      <th>100-250<\/th>\n      <th>250 и более<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"scrollX":true,"dom":"t","columnDefs":[{"className":"dt-center","targets":"_all"},{"className":"dt-right","targets":[0,2,3,4]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-<p>Определите тесноту стохастической связи между признаками (Коэффициент взаимной сопряжённости Чупрова, Пирсона).
-Сделайте выводы.</p>
-<p><span class="math display">\[
-\begin{equation}
-  \varphi^2 = \sum{\frac{\sum{\frac{n^2_{xy}}{n_x}}}{n_y}} - 1 
-\end{equation}
-\]</span>
-Коэффициент Пирсона:
-<span class="math display">\[
-\begin{equation}
-  K_P = \sqrt{ \frac{\varphi^2}{1+\varphi^2} }  
-\end{equation}
-\]</span>
-Коэффициент Чупрова:
-<span class="math display">\[
-\begin{equation}
-  K_C = \sqrt{ \frac{\varphi^2}{(K_1-1)(K_2-1)} }  
-\end{equation}
-\]</span></p>
-<p><span class="math inline">\(K_1\)</span> — число значений первого признака,
-<span class="math inline">\(K_2\)</span> — число значений второго признака.</p>
+<div id="z06-5" class="section level2">
+<h2><span class="header-section-number">6.5</span> Задачи</h2>
+<p>Имеются следующие данные по экспорту важнейших товаров РФ в 2016 году:</p>
+<div id="htmlwidget-3a959d83517d0373808d" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3a959d83517d0373808d">{"x":{"filter":"none","caption":"<caption> <\/caption>","data":[[1,2,3,4,5,6,7,8,9,10,11,12],["январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь"],["1,1","1,2","1,0","2,0","1,9","1,6","1,4","1,9","2,1","2,0","2,0","2,3"],["1,7","3,2","2,8","2,5","2,0","1,2","2,1","3,5","4,7","2,9","4,1","3,2"],["7,3","14,6","17,8","9,7","11,7","19,5","9,4","17,0","16,7","9,5","14,2","18,8"],["19,2","21,0","21,8","21,9","22,0","21,9","20,7","21,6","19,7","22,8","20,7","21,5"],["18,2","15,8","17,1","15,1","14,9","14,3","13,8","14,5","15,9","18,5","20,0","20,7"],["1,6","1,1","1,2","1,1","1,6","1,6","1,6","1,8","1,7","1,6","1,5","1,3"],["1,6","2,9","3,9","2,5","1,8","3,8","2,0","2,2","3,2","1,7","2,4","3,7"],["94,5","114,7","148,3","118,4","53,1","65,4","95,3","152,9","185,3","152,5","114,3","104,6"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>№<\/th>\n      <th>Месяц<\/th>\n      <th>Водка, млн.литров 100% спирта<\/th>\n      <th>Злаки, млн т<\/th>\n      <th>Уголь каменный, млн т<\/th>\n      <th>Нефть сырая, млн т<\/th>\n      <th>Газ природный, млрд .куб.м<\/th>\n      <th>Электроэнергия, млрд.кВт-ч<\/th>\n      <th>Удобрения, млрд т<\/th>\n      <th>Рыба свежая и мороженая, тыс. т<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"scrollX":true,"dom":"t","columnDefs":[{"className":"dt-center","targets":"_all"},{"className":"dt-right","targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<p>Выявите взаимозависимые группы экспортных товаров.</p>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="06-z-2.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="06-z-4.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="06-z-4.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="TR.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
