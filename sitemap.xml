@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://statbook.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2018-02-13T13:42:49-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statbook.github.io/about.html</loc>
+    <loc>/about.html</loc>
     <lastmod>2018-02-13T13:42:49-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://statbook.github.io/categories.html</loc>
+    <loc>/categories.html</loc>
   </url>
   
   <url>
-    <loc>https://statbook.github.io/tags.html</loc>
+    <loc>/tags.html</loc>
   </url>
   
 </urlset>

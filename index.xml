@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://statbook.github.io/</link>
+    <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Feb 2018 13:42:49 -0500</lastBuildDate>
     
-	<atom:link href="https://statbook.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Информация</title>
-      <link>https://statbook.github.io/about.html</link>
+      <link>/about.html</link>
       <pubDate>Tue, 13 Feb 2018 13:42:49 -0500</pubDate>
       
-      <guid>https://statbook.github.io/about.html</guid>
+      <guid>/about.html</guid>
       <description>Статистика.</description>
     </item>
     
