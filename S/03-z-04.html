@@ -51,6 +51,8 @@
 
 
 
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
 <script src="libs/datatables-binding-0.17/datatables.js"></script>
@@ -59,8 +61,6 @@
 <script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
 <link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
 <script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-<script src="libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 
@@ -86,7 +86,7 @@
 <ul>
 <li class="chapter" data-level="2.1" data-path="02-z-1.html"><a href="02-z-1.html"><i class="fa fa-check"></i><b>2.1</b> Задачи</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="03-t.html"><a href="03-t.html"><i class="fa fa-check"></i><b>3</b> Статистическая сводка и группировка.Ряды распределения. Статистические таблицы и графики.</a>
+<li class="chapter" data-level="3" data-path="03-t.html"><a href="03-t.html"><i class="fa fa-check"></i><b>3</b> Абсолютные и относительные показатели</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="03-z-01.html"><a href="03-z-01.html"><i class="fa fa-check"></i><b>3.1</b> Задача</a></li>
 <li class="chapter" data-level="3.2" data-path="03-z-02.html"><a href="03-z-02.html"><i class="fa fa-check"></i><b>3.2</b> Задача</a></li>
@@ -100,7 +100,7 @@
 <li class="chapter" data-level="3.10" data-path="03-z-10.html"><a href="03-z-10.html"><i class="fa fa-check"></i><b>3.10</b> Задача</a></li>
 <li class="chapter" data-level="3.11" data-path="03-z-11.html"><a href="03-z-11.html"><i class="fa fa-check"></i><b>3.11</b> Задача</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="04-t.html"><a href="04-t.html"><i class="fa fa-check"></i><b>4</b> Абсолютные и относительные показатели</a>
+<li class="chapter" data-level="4" data-path="04-t.html"><a href="04-t.html"><i class="fa fa-check"></i><b>4</b> Статистическая сводка и группировка.Ряды распределения. Статистические таблицы и графики.</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="04-z-01.html"><a href="04-z-01.html"><i class="fa fa-check"></i><b>4.1</b> Задача</a></li>
 <li class="chapter" data-level="4.2" data-path="04-z-02.html"><a href="04-z-02.html"><i class="fa fa-check"></i><b>4.2</b> Задача</a></li>
@@ -220,10 +220,141 @@
             <section class="normal" id="section-">
 <div id="z03_04" class="section level2" number="3.4">
 <h2><span class="header-section-number">3.4</span> Задача</h2>
-<p>Имеются следующие данные:</p>
-<div id="htmlwidget-c312e2de383e48e2bd1e" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-c312e2de383e48e2bd1e">{"x":{"filter":"none","caption":"<caption> <\/caption>","data":[[1,2,3,4,5,6,7,8,9],["3-5","5-6","6-8","8-10","10-15","15-18","18-20","20-25","Итого:"],[5,7,10,15,20,23,10,10,100],[6,8,12,17,20,23,10,4,100]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>№<\/th>\n      <th>Группы рабочих по стажу работы, лет<\/th>\n      <th>Число рабочих, в % к итогу<\/th>\n      <th>Выпуск продукции, в % к итогу<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"scrollX":true,"dom":"t","columnDefs":[{"className":"dt-center","targets":"_all"}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-<p>Используя метод вторичной группировки, образуйте следующие группы рабочих по стажу работы: 3-5, 5-10, 10-15, 15-20, 20-25. По каждой группе рассчитайте оба показателя.</p>
+<p>По магазину имеются следующие данные об объемах продаж за 2 года (тыс. руб.):</p>
+<table class="table table-striped" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="4">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+2016 год
+</div>
+</th>
+</tr>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+1 полугодие
+</div>
+</th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+2 полугодие
+</div>
+</th>
+</tr>
+<tr>
+<th style="text-align:left;">
+Вид товара
+</th>
+<th style="text-align:left;">
+Фактически за 2015 год
+</th>
+<th style="text-align:left;">
+план
+</th>
+<th style="text-align:left;">
+факт
+</th>
+<th style="text-align:left;">
+план
+</th>
+<th style="text-align:left;">
+факт
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+А
+</td>
+<td style="text-align:left;">
+752
+</td>
+<td style="text-align:left;">
+370
+</td>
+<td style="text-align:left;">
+370
+</td>
+<td style="text-align:left;">
+390
+</td>
+<td style="text-align:left;">
+402
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Б
+</td>
+<td style="text-align:left;">
+76
+</td>
+<td style="text-align:left;">
+35
+</td>
+<td style="text-align:left;">
+28
+</td>
+<td style="text-align:left;">
+30
+</td>
+<td style="text-align:left;">
+34
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+В
+</td>
+<td style="text-align:left;">
+208
+</td>
+<td style="text-align:left;">
+120
+</td>
+<td style="text-align:left;">
+128
+</td>
+<td style="text-align:left;">
+135
+</td>
+<td style="text-align:left;">
+132
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Г
+</td>
+<td style="text-align:left;">
+14
+</td>
+<td style="text-align:left;">
+7
+</td>
+<td style="text-align:left;">
+6
+</td>
+<td style="text-align:left;">
+7
+</td>
+<td style="text-align:left;">
+8
+</td>
+</tr>
+</tbody>
+</table>
+<p>Рассчитайте все возможные виды относительных показателей.</p>
 
 </div>
             </section>

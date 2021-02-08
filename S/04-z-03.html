@@ -51,6 +51,8 @@
 
 
 
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
 <script src="libs/datatables-binding-0.17/datatables.js"></script>
@@ -59,8 +61,6 @@
 <script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
 <link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
 <script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-<script src="libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 
@@ -86,7 +86,7 @@
 <ul>
 <li class="chapter" data-level="2.1" data-path="02-z-1.html"><a href="02-z-1.html"><i class="fa fa-check"></i><b>2.1</b> Задачи</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="03-t.html"><a href="03-t.html"><i class="fa fa-check"></i><b>3</b> Статистическая сводка и группировка.Ряды распределения. Статистические таблицы и графики.</a>
+<li class="chapter" data-level="3" data-path="03-t.html"><a href="03-t.html"><i class="fa fa-check"></i><b>3</b> Абсолютные и относительные показатели</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="03-z-01.html"><a href="03-z-01.html"><i class="fa fa-check"></i><b>3.1</b> Задача</a></li>
 <li class="chapter" data-level="3.2" data-path="03-z-02.html"><a href="03-z-02.html"><i class="fa fa-check"></i><b>3.2</b> Задача</a></li>
@@ -100,7 +100,7 @@
 <li class="chapter" data-level="3.10" data-path="03-z-10.html"><a href="03-z-10.html"><i class="fa fa-check"></i><b>3.10</b> Задача</a></li>
 <li class="chapter" data-level="3.11" data-path="03-z-11.html"><a href="03-z-11.html"><i class="fa fa-check"></i><b>3.11</b> Задача</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="04-t.html"><a href="04-t.html"><i class="fa fa-check"></i><b>4</b> Абсолютные и относительные показатели</a>
+<li class="chapter" data-level="4" data-path="04-t.html"><a href="04-t.html"><i class="fa fa-check"></i><b>4</b> Статистическая сводка и группировка.Ряды распределения. Статистические таблицы и графики.</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="04-z-01.html"><a href="04-z-01.html"><i class="fa fa-check"></i><b>4.1</b> Задача</a></li>
 <li class="chapter" data-level="4.2" data-path="04-z-02.html"><a href="04-z-02.html"><i class="fa fa-check"></i><b>4.2</b> Задача</a></li>
@@ -220,159 +220,12 @@
             <section class="normal" id="section-">
 <div id="z04_03" class="section level2" number="4.3">
 <h2><span class="header-section-number">4.3</span> Задача</h2>
-<p>Имеются следующие данные:</p>
-<table class="table table-striped" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="empty-cells: hide;border-bottom:hidden;" colspan="1">
-</th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2">
-<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
-Выпуск, т
-</div>
-</th>
-</tr>
-<tr>
-<th style="text-align:left;">
-Виды продукции
-</th>
-<th style="text-align:left;">
-по плану
-</th>
-<th style="text-align:left;">
-фактически
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Молоко, 0,5%
-</td>
-<td style="text-align:left;">
-222,9
-</td>
-<td style="text-align:left;">
-225,3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Молоко, 1,5%
-</td>
-<td style="text-align:left;">
-259,4
-</td>
-<td style="text-align:left;">
-260,4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Молоко, 2,5%
-</td>
-<td style="text-align:left;">
-884,0
-</td>
-<td style="text-align:left;">
-850,1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Молоко, 3,2%
-</td>
-<td style="text-align:left;">
-251,2
-</td>
-<td style="text-align:left;">
-245,7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Молоко, 3,5%
-</td>
-<td style="text-align:left;">
-128,4
-</td>
-<td style="text-align:left;">
-130,6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Молоко, 6,0%
-</td>
-<td style="text-align:left;">
-21,8
-</td>
-<td style="text-align:left;">
-20,1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Кефир, 1%
-</td>
-<td style="text-align:left;">
-111,0
-</td>
-<td style="text-align:left;">
-115,8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Кефир, 2,5%
-</td>
-<td style="text-align:left;">
-184,4
-</td>
-<td style="text-align:left;">
-185,0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Творог, 4%
-</td>
-<td style="text-align:left;">
-135,2
-</td>
-<td style="text-align:left;">
-138,2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Творог, 18%
-</td>
-<td style="text-align:left;">
-25,7
-</td>
-<td style="text-align:left;">
-22,5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Сметана, 15%
-</td>
-<td style="text-align:left;">
-20,2
-</td>
-<td style="text-align:left;">
-25,0
-</td>
-</tr>
-</tbody>
-</table>
-<p>Определите объем выпуска молочной продукции по плану и фактически в условно-натуральном выражении (в пересчете на молоко 2,5%-ой жирности).</p>
-<p>По каждому виду продукции и в целом по ассортименту определите относительные показатели реализации плана.</p>
-<p>Представьте результаты в виде статистического графика и укажите его вид.</p>
-<p>Рассчитайте плановую и фактическую структуры ассортимента и представьте их в виде статистических графиков.</p>
-<p>Проанализируйте структурные изменения.</p>
+<p>Имеются следующие данные по основным показателям деятельности крупнейших банков одной из областей России (данные условные, млн. руб.):</p>
+<div id="htmlwidget-8105e2e5baa532d907b3" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8105e2e5baa532d907b3">{"x":{"filter":"none","caption":"<caption>Данные крупнейших банков<\/caption>","data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],[623,557.5,565.2,645.7,558.3,592.4,596.7,614.9,563.2,585.8,586.5,554.4,668.3,523.9,572.3,611.9,645.5,577.1,669.1,590.8],[261.5,246.7,238.4,248.9,215.8,220,249,223.1,229.9,238.4,244.4,222.9,268.9,204.6,205.3,242.2,227.3,220.9,291.1,226.4],[146.5,95.7,86.5,137.9,119.2,142.2,188.1,75.2,41.5,189.3,183.6,215.4,203.5,110.8,97.6,122.5,236.5,55.2,188.2,37.9],[58.8,29.9,77.4,53.6,53.4,66.4,84.7,82.2,50.9,65.7,47,37.5,44.9,58.6,33.2,59,87.5,38.2,41.8,84.5]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>№<\/th>\n      <th>Сумма активов<\/th>\n      <th>Собственный капитал<\/th>\n      <th>Привлеченные ресурсы<\/th>\n      <th>Балансовая прибыль<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"scrollX":true,"dom":"t","columnDefs":[{"className":"dt-center","targets":"_all"}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<p>Постройте группировку коммерческих банков по величине собственного капитала, выделив не более пяти групп с равными интервалами.
+Рассчитайте по каждой группе сумму активов, собственный капитал, привлеченные ресурсы, балансовую прибыль.
+Результаты группировки представьте в табличной форме и сформулируйте выводы.</p>
 
 </div>
             </section>

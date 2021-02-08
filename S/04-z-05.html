@@ -51,6 +51,8 @@
 
 
 
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
 <script src="libs/datatables-binding-0.17/datatables.js"></script>
@@ -59,8 +61,6 @@
 <script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
 <link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
 <script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-<script src="libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 
@@ -86,7 +86,7 @@
 <ul>
 <li class="chapter" data-level="2.1" data-path="02-z-1.html"><a href="02-z-1.html"><i class="fa fa-check"></i><b>2.1</b> Задачи</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="03-t.html"><a href="03-t.html"><i class="fa fa-check"></i><b>3</b> Статистическая сводка и группировка.Ряды распределения. Статистические таблицы и графики.</a>
+<li class="chapter" data-level="3" data-path="03-t.html"><a href="03-t.html"><i class="fa fa-check"></i><b>3</b> Абсолютные и относительные показатели</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="03-z-01.html"><a href="03-z-01.html"><i class="fa fa-check"></i><b>3.1</b> Задача</a></li>
 <li class="chapter" data-level="3.2" data-path="03-z-02.html"><a href="03-z-02.html"><i class="fa fa-check"></i><b>3.2</b> Задача</a></li>
@@ -100,7 +100,7 @@
 <li class="chapter" data-level="3.10" data-path="03-z-10.html"><a href="03-z-10.html"><i class="fa fa-check"></i><b>3.10</b> Задача</a></li>
 <li class="chapter" data-level="3.11" data-path="03-z-11.html"><a href="03-z-11.html"><i class="fa fa-check"></i><b>3.11</b> Задача</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="04-t.html"><a href="04-t.html"><i class="fa fa-check"></i><b>4</b> Абсолютные и относительные показатели</a>
+<li class="chapter" data-level="4" data-path="04-t.html"><a href="04-t.html"><i class="fa fa-check"></i><b>4</b> Статистическая сводка и группировка.Ряды распределения. Статистические таблицы и графики.</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="04-z-01.html"><a href="04-z-01.html"><i class="fa fa-check"></i><b>4.1</b> Задача</a></li>
 <li class="chapter" data-level="4.2" data-path="04-z-02.html"><a href="04-z-02.html"><i class="fa fa-check"></i><b>4.2</b> Задача</a></li>
@@ -220,47 +220,10 @@
             <section class="normal" id="section-">
 <div id="z04_05" class="section level2" number="4.5">
 <h2><span class="header-section-number">4.5</span> Задача</h2>
-<p>Имеются следующие данные о производстве бумаги в РФ:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">
-</th>
-<th style="text-align:left;">
-2013
-</th>
-<th style="text-align:left;">
-2014
-</th>
-<th style="text-align:left;">
-2015
-</th>
-<th style="text-align:left;">
-2016
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Произведено бумаги, тыс. т.
-</td>
-<td style="text-align:left;">
-3603
-</td>
-<td style="text-align:left;">
-2882
-</td>
-<td style="text-align:left;">
-2215
-</td>
-<td style="text-align:left;">
-2771
-</td>
-</tr>
-</tbody>
-</table>
-<p>Вычислите относительные показатели динамики с переменной и постоянной базой сравнения. Проверьте их взаимосвязь.</p>
+<p>Имеются следующие данные:</p>
+<div id="htmlwidget-7de1eba4a49ac03e2fdc" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7de1eba4a49ac03e2fdc">{"x":{"filter":"none","caption":"<caption> <\/caption>","data":[[1,2,3,4,5,6,7,8],["До 100","100-200","200-300","300-500","500-800","800-1000","1000-2000","Итого:"],[1,1.3,2.7,9.3,41.4,25.3,19,100],[0.1,0.1,0.3,3.2,26.9,25.6,43.8,100]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>№<\/th>\n      <th>Группы предприятий по числу работающих, чел.<\/th>\n      <th>Число предприятий, в % к итогу<\/th>\n      <th>Выпуск продукции, в % к итогу<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"scrollX":true,"dom":"t","columnDefs":[{"className":"dt-center","targets":"_all"}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<p>Произведите перегруппировку предприятий по числу работающих, образовав следующие группы: до 150, 150-300, 300-400, 400-600, 600-800, 800-900, 900-1500, свыше 1500. По каждой группе рассчитайте оба показателя. Сделайте выводы.</p>
 
 </div>
             </section>
