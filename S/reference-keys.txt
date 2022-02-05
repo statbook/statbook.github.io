@@ -3,7 +3,6 @@ tab:unnamed-chunk-20
 tab:unnamed-chunk-21
 tab:unnamed-chunk-23
 tab:unnamed-chunk-24
-tab:unnamed-chunk-34
 tab:unnamed-chunk-37
 tab:unnamed-chunk-40
 tab:unnamed-chunk-41
@@ -17,10 +16,6 @@ tab:unnamed-chunk-52
 tab:unnamed-chunk-53
 tab:unnamed-chunk-54
 tab:unnamed-chunk-55
-tab:unnamed-chunk-56
-tab:unnamed-chunk-57
-tab:unnamed-chunk-58
-tab:unnamed-chunk-63
 статистика-как-наука
 статистическое-наблюдение
 абсолютные-и-относительные-показатели
@@ -35,7 +30,7 @@ tab:unnamed-chunk-63
 задача-8
 задача-9
 задача-10
-статистическая-сводка-и-группировка.ряды-распределения.
+статистическая-сводка-и-группировка.-ряды-распределения
 задача-11
 задача-12
 задача-13

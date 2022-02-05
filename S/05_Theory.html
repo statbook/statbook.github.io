@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Тема 5 Средние величины | Статистика</title>
-  <meta name="description" content="Тема 5 Средние величины | Статистика" />
+  <title>Тема 5 : Средние величины | Статистика</title>
+  <meta name="description" content="Тема 5 : Средние величины | Статистика" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Тема 5 Средние величины | Статистика" />
+  <meta property="og:title" content="Тема 5 : Средние величины | Статистика" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Тема 5 Средние величины | Статистика" />
+  <meta name="twitter:title" content="Тема 5 : Средние величины | Статистика" />
   
   
   
@@ -24,7 +24,7 @@
 <meta name="author" content="ТМС" />
 
 
-<meta name="date" content="2022-01-18" />
+<meta name="date" content="2022-02-05" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -97,7 +97,7 @@
 <li class="chapter" data-level="3.10" data-path="03_Z10.html"><a href="03_Z10.html"><i class="fa fa-check"></i><b>3.10</b> Задача</a></li>
 <li class="chapter" data-level="3.11" data-path="03_Z11.html"><a href="03_Z11.html"><i class="fa fa-check"></i><b>3.11</b> Задача</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="04_Theory.html"><a href="04_Theory.html"><i class="fa fa-check"></i><b>4</b> Статистическая сводка и группировка.Ряды распределения.</a>
+<li class="chapter" data-level="4" data-path="04_Theory.html"><a href="04_Theory.html"><i class="fa fa-check"></i><b>4</b> Статистическая сводка и группировка. Ряды распределения</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="04_Z01.html"><a href="04_Z01.html"><i class="fa fa-check"></i><b>4.1</b> Задача</a></li>
 <li class="chapter" data-level="4.2" data-path="04_Z02.html"><a href="04_Z02.html"><i class="fa fa-check"></i><b>4.2</b> Задача</a></li>
@@ -213,147 +213,7 @@
 
             <section class="normal" id="section-">
 <div id="средние-величины" class="section level1" number="5">
-<h1><span class="header-section-number">Тема 5</span> Средние величины</h1>
-<p><strong>Средняя величина</strong> представляет собой обобщенную количественную характеристику признака статистической совокупности в конкретных условиях места и времени.
-Показатель в форме средней величины отражает типичные черты и дает обобщающую характеристику однотипных явлений по одному из варьирующих признаков.
-Сущность средней заключается в том, что в ней взаимопогашаются отклонения значений признака отдельных единиц совокупности, обусловленные действием случайных факторов, и учитываются изменения, вызванные действием основных факторов.
-Средняя величина только тогда будет отражать типичный уровень признака, когда она рассчитана по качественно однородной совокупности.
-На практике определить среднюю во многих случаях можно через исходное соотношение средней (ИСС) или ее логическую формулу:</p>
-<p>ИСС=Суммарное значение или объем осреднаемого признака/Число единиц или объем совокупности</p>
-<p>В зависимости от того, в каком виде представлены исходные данные для расчета средней, зависит, каким именно образом будет реализовано ее исходное соотношение.</p>
-<p>Различают следующие виды средней, каждая из которых может быть простой и взвешенной:</p>
-<ul>
-<li>Средняя арифметическая;</li>
-<li>Средняя гармоническая;</li>
-<li>Средняя геометрическая;</li>
-<li>Средняя квадратическая, кубическая и т.д.</li>
-<li>Структурные средние: мода и медиана.</li>
-</ul>
-<p><strong>Средняя арифметическая простая (не взвешенная)</strong>. Эта форма средней используется в тех случаях, когда расчет осуществляется по не сгруппированным данным.</p>
-<p><span class="math display">\[
-\begin{equation}
- \overline{x}=\frac{x_1+x_2+\ldots+x_n}{n}=\frac{\sum{x_i}}{n}
-\end{equation}
-\]</span></p>
-<p><strong>Средняя арифметическая взвешенная</strong>. При расчете средних величин отдельные значения признака могут повторяться, встречаться по нескольку раз. В данном случае расчет проводится по сгруппированным данным или вариационным рядам, которые могут быть дискретными или интервальными.</p>
-<p><span class="math display">\[
-\begin{equation}
- \overline{x}=\frac{\sum{x_i f_i}}{\sum{f_i}}
-\end{equation}
-\]</span>
-Средняя арифметическая величина имеет следующие свойства, использование которых упрощает ее расчет.</p>
-<ol style="list-style-type: decimal">
-<li>Произведение средней на сумму частот равно сумме произведений отдельных вариантов на соответствующие им частоты.
-<span class="math display">\[
-\begin{equation}
- \overline{x}{\sum{f_i}}=\sum{x_i f_i}
-\end{equation}
-\]</span></li>
-<li>Сумма отклонений индивидуального значения признака от средней арифметической равна нулю:
-<span class="math display">\[
-\begin{equation}
- \sum{(x_i-\overline{x})f_i}=0
-\end{equation}
-\]</span></li>
-<li>Если все осредняемые варианты уменьшить или увеличить на постоянное число А, то средняя арифметическая соответственно уменьшится или увеличится на туже величину.
-<span class="math display">\[
-\begin{equation}
- \frac{\sum{(x_i \pm A) f_i}}{\sum{f_i}}=\overline{x} \pm A
-\end{equation}
-\]</span></li>
-<li>Если все варианты значений признака уменьшить или увеличить в А раз, то средняя соответственно уменьшится или увеличится в А раз:
-<span class="math display">\[
-\begin{equation}
- \frac{\sum{(x_i / A) f_i}}{\sum{f_i}}=\frac{\overline{x}}{A}
-\end{equation}
-\]</span></li>
-<li>Если все частоты уменьшить или увеличить в А раз, то средняя останется неизменной:
-<span class="math display">\[
-\begin{equation}
- \frac{\sum{x_i (f_i / A)}}{\sum{(f_i / A)}}=\overline{x}
-\end{equation}
-\]</span></li>
-<li>Сумма квадратов отклонений индивидуальных значений признака от средней арифметической меньше, чем сумма квадратов их отклонений от любой другой произвольной величины С:
-<span class="math display">\[
-\begin{equation}
- \sum{(x_i-C)^2 f_i}&gt;\sum{(x_i-\overline{x})^2 f_i}
-\end{equation}
-\]</span></li>
-</ol>
-<p><strong>Средняя гармоническая</strong> – это величина, обратная средней арифметической из обратных значений признака. Различают среднюю гармоническую простую и взвешенную.
-Средняя гармоническая простая.
-<span class="math display">\[
-\begin{equation}
- \overline{x}=\frac{n}{\sum{\frac{1}{x_i}}}
-\end{equation}
-\]</span>
-Средняя гармоническая взвешенная применяется тогда, когда статистическая информация не содержит частот по отдельным вариантам совокупности, а представлена как их произведение.
-<span class="math display">\[
-\begin{equation}
- \overline{x}=\frac{\sum{\omega_i}}{\sum{\frac{\omega_i}{x_i}}}
-\end{equation}
-\]</span>
-Средняя арифметическая и средняя гармоническая величины могут применятся в одних и тех же ситуациях, но по разным данным. Если в ИСС неизвестен числитель, то в расчетах применяется средняя арифметическая величина. Если в ИСС неизвестен знаменатель, то в расчетах используется средняя гармоническая величина.</p>
-<p><strong>Средняя квадратическая величина</strong> применяется тогда, когда вместо индивидуальных значений признака представлены квадраты исходных величин.
-<span class="math display">\[
-\begin{equation}
- \overline{x}_{кв}=\sqrt{ \frac{\sum{x_i^2}}{n} }
-\end{equation}
-\]</span>
-<strong>Средняя геометрическая</strong> применяется в случаях определения средней по значениям, имеющим большой разброс, либо в случаях определения средней величины по относительным показателям.
-<span class="math display">\[
-\begin{equation}
- \overline{x}_{геом}=\sqrt[n] {x_1\times x_2 \times \ldots \times x_n}
-\end{equation}
-\]</span>
-Характеристиками структуры совокупности являются следующие структурные средние:</p>
-<ol style="list-style-type: decimal">
-<li><strong>Мода</strong> ( <span class="math inline">\(M_o\)</span> )– величина признака, наиболее часто встречающаяся в совокупности, т.е. имеющая наибольшую численность в ряду распределения.</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li>В дискретном ряду распределения мода определяется визуально.</li>
-<li>В интервальном ряду распределения визуально можно определить только интервал, в котором заключена мода, который называется модальным интервалом. Мода будет равна:
-<span class="math display">\[
-\begin{equation}
- M_o=x_{M_o}+i_{M_o} \times \frac{f_{M_o} - f_{M_o-1}} {(f_{M_o} - f_{M_o-1})+(f_{M_o} - f_{M_o+1})}
-\end{equation}
-\]</span>
-где:</li>
-</ol>
-<ul>
-<li><span class="math inline">\(x_{M_o}\)</span>– нижняя граница модального интервала;</li>
-<li><span class="math inline">\(i_{M_o}\)</span> –величина модального интервала;</li>
-<li><span class="math inline">\(f_{M_o}\)</span> – частота модального интервала;</li>
-<li><span class="math inline">\(f_{M_o-1}\)</span> – частота, предшествующая модальному интервалу;</li>
-<li><span class="math inline">\(f_{M_o+1}\)</span> – частота интервала, следующего за модальным.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li><strong>Медиана</strong> ( <span class="math inline">\(M_e\)</span> )– значение признака, приходящееся на середину ранжированного ряда, т.е. делящее ряд распределения на две равные части.</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li><p>В дискретном ряду распределения определяется номер медианы по формуле:
-<span class="math display">\[
-\begin{equation}
- N_{M_e} = \frac{n+1}{2}
-\end{equation}
-\]</span>
-Номер медианы показывает то значение показателя, которое и является медианой.</p></li>
-<li><p>В интервальном ряду распределения медиана рассчитывается по следующей формуле:
-<span class="math display">\[
-\begin{equation}
- M_e=x_{M_e}+i_{M_e} \times \frac{\sum{f_i}/2-S_{M_e-1}} {f_{M_e} }
-\end{equation}
-\]</span>
-где:</p></li>
-</ol>
-<ul>
-<li><span class="math inline">\(x_{M_e}\)</span>– нижняя граница медианного интервала;</li>
-<li><span class="math inline">\(i_{M_e}\)</span> –величина медианного интервала;</li>
-<li><span class="math inline">\(f_{M_e}\)</span> – частота медианного интервала;</li>
-<li><span class="math inline">\(S_{M_e-1}\)</span> – сумма накопленных частот, предшествующих медианному интервалу;</li>
-<li><span class="math inline">\(\sum{f_i}/2\)</span> – полусумма частот ряда.</li>
-</ul>
-<p>Мода и медиана могут быть определены графически.</p>
+<h1><span class="header-section-number">Тема 5 :</span> Средние величины</h1>
 
             </section>
 
@@ -375,17 +235,7 @@
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": false,
-"twitter": false,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "google", "twitter", "vk"]
-},
+"sharing": null,
 "fontsettings": {
 "theme": "white",
 "family": "sans",
@@ -400,13 +250,10 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": [["book.pdf", "PDF"], ["book.docx", "WORD"]],
-"search": {
-"engine": "fuse",
-"options": null
-},
+"download": null,
+"search": null,
 "toc": {
-"collapse": "section",
+"collapse": null,
 "scroll_highlight": true
 }
 });
