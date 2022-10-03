@@ -7,14 +7,102 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="statbook.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>About author</title>
       <link>statbook.github.io/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>statbook.github.io/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
-https://github.com/yuin/goldmark https://github.</description>
+      <description>Maxim T. Senior lecturer in the department of Statistics Plekhanov Russian University of Economics.</description>
+    </item>
+    
+    <item>
+      <title>Международная статистика</title>
+      <link>statbook.github.io/books/m_s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/m_s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Социально-экономическая статистика</title>
+      <link>statbook.github.io/books/s_e_s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/s_e_s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Социально-экономическая статистика в гостиничном бизнесе</title>
+      <link>statbook.github.io/books/s_e_s_gb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/s_e_s_gb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Социально-экономическая статистика в туризме</title>
+      <link>statbook.github.io/books/s_e_s_tr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/s_e_s_tr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Статистика</title>
+      <link>statbook.github.io/books/s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Статистика внешней торговли</title>
+      <link>statbook.github.io/books/s_f_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/s_f_t/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Статистика рынка</title>
+      <link>statbook.github.io/books/s_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/s_m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Статистика торговли</title>
+      <link>statbook.github.io/books/s_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/s_t/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Теория статистики</title>
+      <link>statbook.github.io/books/t_s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/t_s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Экономическая статистика</title>
+      <link>statbook.github.io/books/e_s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>statbook.github.io/books/e_s/</guid>
+      <description></description>
     </item>
     
   </channel>
