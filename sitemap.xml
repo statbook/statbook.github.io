@@ -2,13 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vnovel.pages.dev/about/</loc>
+    <loc>statbook.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vnovel.pages.dev/categories/</loc>
+    <loc>statbook.github.io/books/</loc>
   </url><url>
-    <loc>https://vnovel.pages.dev/tags/</loc>
+    <loc>statbook.github.io/categories/</loc>
   </url><url>
-    <loc>https://vnovel.pages.dev/</loc>
+    <loc>statbook.github.io/tags/</loc>
+  </url><url>
+    <loc>statbook.github.io/</loc>
   </url>
 </urlset>
