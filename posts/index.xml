@@ -6,5 +6,95 @@
     <description>Recent content in Posts on Статистика</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://statbook.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Международная статистика</title>
+      <link>https://statbook.github.io/posts/m_s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/m_s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Социально-экономическая статистика</title>
+      <link>https://statbook.github.io/posts/s_e_s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/s_e_s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Социально-экономическая статистика в гостиничном бизнесе</title>
+      <link>https://statbook.github.io/posts/s_e_s_gb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/s_e_s_gb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Социально-экономическая статистика в туризме</title>
+      <link>https://statbook.github.io/posts/s_e_s_tr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/s_e_s_tr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Статистика</title>
+      <link>https://statbook.github.io/posts/s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Статистика внешней торговли</title>
+      <link>https://statbook.github.io/posts/s_f_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/s_f_t/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Статистика рынка</title>
+      <link>https://statbook.github.io/posts/s_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/s_m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Статистика торговли</title>
+      <link>https://statbook.github.io/posts/s_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/s_t/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Теория статистики</title>
+      <link>https://statbook.github.io/posts/t_s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/t_s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Экономическая статистика</title>
+      <link>https://statbook.github.io/posts/e_s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statbook.github.io/posts/e_s/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
